@@ -1,0 +1,20 @@
+:root {
+  --gradient-1: linear-gradient(135deg, #33d35e 0%, #2ab6d9 99.58%);
+  --green: #30c88f;
+  --black: #2d314d;
+  --grey: #9597a5;
+  --white: #fff;
+  --text: #2d314d;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Public Sans";
+}

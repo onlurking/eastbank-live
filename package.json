@@ -1,0 +1,34 @@
+{
+  "name": "easybank-landing-page",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint:js": "eslint src/ --ext .js,.jsx",
+    "lint:js:fix": "npm run lint:js -- --fix",
+    "lint:css": "stylelint src/**/*.{css,js}",
+    "lint:css:fix": "stylelint src/**/*.{css,js} --fix"
+  },
+  "devDependencies": {
+    "postcss-nesting": "^10.1.10",
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.9.1",
+    "stylelint-config-standard": "^26.0.0",
+    "svelte": "^3.49.0"
+  },
+  "dependencies": {
+    "vite": "^3.0.0",
+    "@sveltejs/vite-plugin-svelte": "^1.0.1"
+  }
+}
